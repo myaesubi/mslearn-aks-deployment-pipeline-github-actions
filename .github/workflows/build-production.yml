@@ -48,5 +48,5 @@ jobs:
           context: .
           push: true
           # List of secrets to expose to the build (e.g., key=string, GIT_AUTH_TOKEN=mytoken)
-          tags: tags: ${{secrets.ACR_NAME}}/contoso-website:latest,${{secrets.ACR_NAME}}/contoso-website:${{ steps.fetch_version.outputs.TAG }}
+          tags: ${{secrets.ACR_NAME}}/contoso-website:latest,${{secrets.ACR_NAME}}/contoso-website:${{ steps.fetch_version.outputs.TAG }}
           # Sets the target stage to build
