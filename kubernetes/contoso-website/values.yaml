@@ -4,4 +4,5 @@ image:
   tag: latest
 
 dns:
-  name: <your-dns-zone-name>
+  name: def04f515b384cec861d.eastus.aksapp.io
+
